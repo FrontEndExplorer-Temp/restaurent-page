@@ -1,4 +1,5 @@
-import restImage from "./rest.avif";
+import restImage from "./rest.avif"; // Import the image
+
 export function loadHomepage() {
   const contentDiv = document.getElementById("content");
 
@@ -14,10 +15,9 @@ export function loadHomepage() {
   headline.innerText = "Welcome to The Delicious Restaurant!";
   homepageDiv.appendChild(headline);
 
-  // Create and append an image
+  // Create and append an image using the imported image
   const img = document.createElement("img");
-  img.src =
-    "https://unsplash.com/photos/a-restaurant-filled-with-lots-of-tables-and-chairs-I8Rf3tItuHEs";
+  img.src = restImage; // Use the imported image
   img.alt = "Restaurant Image";
   homepageDiv.appendChild(img);
 

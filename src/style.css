@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background-color: #444;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+#content {
+  margin: 20px;
+  text-align: center;
+}
+
+.homepage {
+  padding: 20px;
+}
+
+.homepage h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.homepage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.homepage p {
+  font-size: 1.1rem;
+  color: #555;
+}
